@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -23,7 +23,6 @@ body {
     z-index: 2;
 }
 
-/* Inputs & Buttons */
 input {
     padding: 10px;
     width: 70%;
@@ -46,12 +45,11 @@ button {
 
 button:hover { background: #004d40; }
 
-/* Weather Display */
 #weatherResult { margin-top: 20px; transition: all 0.5s; }
 .hidden { display: none; }
 #weatherIcon { width: 100px; height: 100px; }
 
-/* Forecast Cards */
+/* cards */
 .forecast-cards {
     display: flex;
     justify-content: space-between;
@@ -73,7 +71,7 @@ button:hover { background: #004d40; }
 
 .forecast-card img { width: 50px; height: 50px; }
 
-/* Mobile Responsiveness */
+/* Mobile */
 @media (max-width: 480px) {
     input { width: 100%; margin-bottom: 10px; }
     button { width: 100%; margin-bottom: 15px; }
@@ -81,9 +79,6 @@ button:hover { background: #004d40; }
     .forecast-cards { flex-direction: column; align-items: center; gap: 15px; }
     #weatherIcon { width: 80px; height: 80px; }
 }
-
-/* Animations */
-
 /* Sun */
 .sun {
     position: absolute;
@@ -156,7 +151,6 @@ button:hover { background: #004d40; }
 }
 @keyframes snowFall { 0% { top: -10px; transform: translateX(0); } 100% { top: 100%; transform: translateX(50px); } }
 
-/* Stars for Night */
 .star {
     position: absolute;
     width: 2px; height: 2px;
