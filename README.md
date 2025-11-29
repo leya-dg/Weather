@@ -18,4 +18,4 @@ Features:
 ## How to view
 
 1. Open `index.html` in a browser.
-2. Or host live using [GitHub Pages](https://pages.github.com/).# Weather
+2. Or host live using [GitHub Pages](https://leya-dg.github.io/Weather/).# Weather
