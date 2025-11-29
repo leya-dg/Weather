@@ -1,19 +1,17 @@
-# Animated Weather App
+# Weather update
 
-This is a fully animated weather app using:
+This is a weather app using:
 
 - HTML
 - CSS
 - JavaScript
-- OpenWeatherMap API (Free)
+- OpenWeatherMap API
 
 Features:
 
 - Current weather (temperature, humidity, description)
 - 3-day forecast
 - Dynamic animations for sun, moon, clouds, rain, snow
-- Day/Night mode with stars and moon
-- Fully mobile responsive
 
 ## How to view
 
