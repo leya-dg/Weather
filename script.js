@@ -12,7 +12,6 @@ const body = document.body;
 const forecastDiv = document.getElementById("forecast");
 const forecastCards = document.getElementById("forecastCards");
 
-// Clear old animations
 function clearWeatherAnimations() {
     document.querySelectorAll('.sun, .moon, .cloud, .raindrop, .snowflake, .star').forEach(el => el.remove());
 }
@@ -23,7 +22,6 @@ getWeatherBtn.addEventListener("click", () => {
 
     clearWeatherAnimations();
 
-    // Current Weather
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(url)
@@ -42,7 +40,7 @@ getWeatherBtn.addEventListener("click", () => {
             const hour = new Date().getHours();
             const isNight = hour < 6 || hour > 18;
 
-            // Dynamic background + animations
+            // animations
             if (mainWeather.includes("cloud")) {
                 body.style.background = isNight ? "#2c3e50" : "#b0c4de";
                 for(let i=0;i<3;i++){
