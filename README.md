@@ -15,5 +15,4 @@ Features:
 
 ## How to view
 
-1. Open `index.html` in a browser.
-2. Or host live using [GitHub Pages](https://leya-dg.github.io/Weather/) 
+Open This: https://weather-m0yvttwdg-leas-projects-f4a8d4d9.vercel.app
